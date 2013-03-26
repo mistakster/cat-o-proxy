@@ -1,15 +1,22 @@
 {
-  "name": "proxy",
+  "name": "cat-o-proxy",
   "version": "0.0.1",
-  "description": "Image prettyfier",
+  "description": "Image prettyfier proxy server",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "",
+  "homepage": "https://github.com/mistakster/cat-o-proxy",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mistakster/cat-o-proxy.git"
+  },
   "author": "Vladimir Kuznetsov <mistakster@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "gm": "*"
+    "gm": "1.8.x"
+  },
+  "config": {
+    "port": 3128
   }
 }
