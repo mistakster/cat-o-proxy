@@ -16,6 +16,9 @@
   "dependencies": {
     "gm": "1.8.x"
   },
+  "engines": [
+    "node >=0.10.0"
+  ],
   "config": {
     "port": 3128
   }
